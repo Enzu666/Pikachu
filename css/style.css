@@ -7,14 +7,22 @@ body{
     background-color: var(--primary-color);
     display: flex;
     flex-direction: column;
+    padding: 70px;
+    font-family: Righteous, sans-serif;
 }
 header{
-    background-color: azure;
+    display: flex;
+    align-items: center; 
+    gap: 16px;
+}
+header span{
+    color: var(--secundary-color);
+    font-size: 32px;
 }
 main{
-    background-color: blue;
-    flex-grow: 1;
+    flex-grow: 1; 
+    background-color: #8E4106;  
 }
 footer{
-    background-color: red;
+     
 }
