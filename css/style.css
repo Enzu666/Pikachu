@@ -116,6 +116,22 @@ footer{
 
 /*Mobile*/
 @media (max-width: 480px){
-   
-    
+   .descricao p{
+    display: none;
+   }
+   .sombra{
+    transform: translate(-50%, -220%);
+   }
+   h1{
+    transform: translate(0, -22%);
+   }
+   .Pikachu{
+    height: 50vh;
+   }
+   h2{
+    font-size: 38px;
+   }
+   .container a{
+    width: 100%;
+   }
 }
