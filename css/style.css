@@ -26,7 +26,7 @@ main{
 }
 h1{
     flex-grow: 1;
-    font-size: 300px;
+    font-size: 22vw;
     color: white;
     display: flex;
     justify-content: center;
@@ -53,7 +53,7 @@ a{
 }
 .sombra{
     position: absolute;
-    font-size: 400px;
+    font-size: 28vw;
     color: #ffffff22;
     z-index: -100;
     top: 50%;
@@ -82,4 +82,40 @@ footer{
     flex-direction: column;
     align-items: center;
     color: var(--secundary-color);
+}
+
+/*tabelt*/
+@media (max-width: 1024px){
+
+    body{
+        padding: 30px;
+    }
+    .sombra{
+        transform: translate(-50%, -180%);
+    }
+    h1{
+        transform: translate(0, -30%);
+    }
+    .container{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding: 0;
+        gap: 8px;
+    }
+    .descricao p{
+        text-align: center;
+    }
+    .Pikachu{
+        transform: translate(-45%, -50%);
+    }
+    footer{
+        display: none;
+    }
+}
+
+/*Mobile*/
+@media (max-width: 480px){
+   
+    
 }
